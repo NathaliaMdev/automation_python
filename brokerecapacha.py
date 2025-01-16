@@ -5,7 +5,7 @@ import requests
 import whisper
 
 driver = webdriver.Chrome()
-driver.get("https://sei.anp.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0")
+driver.get("Link")
 driver.implicitly_wait(2)
 
 # Captura do link de áudio
